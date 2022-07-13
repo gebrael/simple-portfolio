@@ -1,0 +1,50 @@
+img {
+  border-radius: 0.5rem;
+  vertical-align: middle;
+  overflow: hidden;
+  cursor: pointer;
+}
+h1 {
+  color: #2c3e50;
+  text-transform: uppercase;
+  font-size: 3rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.card-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.layer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  position: absolute;
+  background-color: rgba(26, 188, 156, 0.9);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.layer i {
+  color: #fff;
+  font-size: 4rem;
+  line-height: 2.5rem;
+  font-weight: bolder;
+}
+.layer:hover {
+  opacity: 1;
+}

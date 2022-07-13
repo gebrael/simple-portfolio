@@ -1,0 +1,21 @@
+.fade-text {
+  position: relative;
+  height: 50px;
+}
+@keyframes identifier {
+  0% {
+    bottom: -50px;
+  }
+  100% {
+    bottom: 5px;
+  }
+}
+
+h5 {
+  color: #1abc9c;
+  position: absolute;
+  z-index: -1;
+  bottom: -50px;
+
+  animation: identifier 0.3s ease-in-out forwards;
+}

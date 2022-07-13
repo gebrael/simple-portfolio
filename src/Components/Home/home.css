@@ -1,0 +1,14 @@
+.hero {
+  background-color: #1abc9c !important;
+}
+.hero h1 {
+  color: #fff;
+  font-size: 4rem;
+  line-height: 3.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.hero img {
+  width: 17%;
+}
